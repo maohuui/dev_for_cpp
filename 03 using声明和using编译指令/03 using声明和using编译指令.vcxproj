@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{A0536488-FCBC-41CA-8512-A99C04411A94}</ProjectGuid>
-    <RootNamespace>My02namespace命名空间</RootNamespace>
+    <ProjectGuid>{5B627B2A-DE9C-41CD-A154-335B1B25716A}</ProjectGuid>
+    <RootNamespace>My03using声明和using编译指令</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,13 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="02 namespace命名空间.cpp" />
-    <ClCompile Include="game1.cpp" />
-    <ClCompile Include="game2.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="game1.h" />
-    <ClInclude Include="game2.h" />
+    <ClCompile Include="03 using声明和using编译指令.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
