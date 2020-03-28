@@ -28,5 +28,8 @@ echo:
 	@echo $(OBJ)
 	@echo $(BIN)
 
+install:
+	install -m 755 $(BIN) /usr/local/bin
+
 clean:
 	rm -rf $(OBJECT) $(BIN_TARGET)

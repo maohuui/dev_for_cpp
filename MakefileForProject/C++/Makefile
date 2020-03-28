@@ -21,5 +21,8 @@ echo:
 	@echo $(SUFFIX)
 	@echo $(BIN)
 
+install:
+	install -m 755 $(BIN) /usr/local/bin
+
 clean:
 	rm -rf $(BIN)
