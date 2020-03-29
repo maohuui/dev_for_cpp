@@ -39,6 +39,7 @@ void test04()
 //5. c语言没有bool类型
 //bool flag = true;
 
+//6. 
 void test06()
 {
 	int a = 10;
