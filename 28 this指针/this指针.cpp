@@ -8,7 +8,7 @@ public:
 	{
 		this->a = a; //1.this指针解决命名冲突，//this指针指向被调用的成员函数所属的对象
 	}
-	void showA() // void showA(Person * const this)
+	void showA() // void showA(Person * this)
 	{
 		cout << "" << this->a << endl;
 	}
